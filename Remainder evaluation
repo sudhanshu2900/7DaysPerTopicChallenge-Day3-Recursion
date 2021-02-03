@@ -1,0 +1,20 @@
+PROBLEM: I/P- num1=5, num2=3
+         O/P- 2
+         
+         I/P- num1=5, num2=10
+         O/P- 5
+         
+         
+         
+SOLUTION:
+
+int findRemainder(int num1,int num2)
+    {
+        if(num1>num2){
+            return(num1%num2);
+        }
+        else if(num1<num2)
+            return num1;
+    }
+    
+    
